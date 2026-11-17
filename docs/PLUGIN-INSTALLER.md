@@ -16,4 +16,4 @@ O resultado de uma ativação saudável é `active-awaiting-real-message`. Só u
 
 Os 47 testes de referência anteriores permanecem preservados. Os testes adicionais do instalador e a conferência de instalação são registrados separadamente em [evidence/plugin-installer.json](../evidence/plugin-installer.json). Repetir os 47 testes com o plugin empacotado não os transforma em 47 casos novos.
 
-Instruções completas, compatibilidade e limites estão no [manual do pacote](../packages/routerclaw/README.md). O instalador não migra automaticamente o antigo `lab-router-6778` do agente coordenador e não foi aplicado à produção nesta preparação. O código está disponível neste repositório; a publicação no ClawHub ainda depende da análise de segurança do registro.
+Instruções completas, compatibilidade e limites estão no [manual do pacote](../packages/routerclaw/README.md). O instalador não migra automaticamente o antigo `lab-router-6778` do agente coordenador e não foi aplicado à produção nesta preparação. O código está disponível neste repositório; a distribuição desta versão no ClawHub ainda não foi publicada.
