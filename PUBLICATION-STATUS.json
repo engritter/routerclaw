@@ -3,10 +3,13 @@
   "author": "Álvaro Ritter",
   "repository": "https://github.com/engritter/routerclaw",
   "githubPublicationAuthorized": true,
-  "stage": "public-release-preparation",
+  "stage": "public-experimental-source",
   "clawhubPackage": "@engritter/routerclaw",
-  "clawhubStatus": "security checks pending; not confirmed publicly installable",
+  "clawhubStatus": "Earlier staged artifact withdrawn for attribution privacy; alpha.2 is not published in ClawHub",
   "upstreamSubmission": "No issue, PR or comment submitted",
   "productionChanged": false,
-  "privacy": "Clean publication history; no personal email, raw conversations, credentials or private bot names"
+  "privacy": "Clean publication history; no personal email, raw conversations, credentials or private bot names",
+  "githubVisibility": "public",
+  "publicSourceVersion": "0.1.0-alpha.2",
+  "previousClawhubArtifactSoftDeleted": true
 }
