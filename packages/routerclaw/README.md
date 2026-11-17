@@ -10,7 +10,7 @@ RouterClaw selects model and reasoning effort for each admitted private Telegram
 
 Use Node 24.22.1+ or 26.12.1+ within those major lines. Activation supports a direct Node Gateway running as a **Linux systemd user service**, under the same non-root user running this installer, using the default canonical `~/.openclaw` state directory and `~/.openclaw/openclaw.json` configuration. Non-default state/config paths, named profiles, containers, root/system services and other launchers require a separate integration; the installer refuses them. The configuration must be JSON with current keyed `agents.entries`; legacy agent lists require a separate native migration. You need one Telegram owner ID and the label of an existing OpenAI OAuth subscription profile. Never supply a password, bot token or API key to the installer.
 
-The release `.tgz` is a normal npm package with no install hooks or runtime dependencies. While the registry release is pending, install a reviewed local artifact into a private directory:
+The release `.tgz` is a normal npm package with no install hooks or runtime dependencies. To install without a registry release, use a reviewed local artifact into a private directory:
 
 ```sh
 mkdir -m 700 "$HOME/routerclaw-package"
@@ -63,7 +63,7 @@ Return requires the installed configuration and RouterClaw override to match the
 
 From the source repository, run `python3 scripts/build_reference.py`, then `node scripts/build-routerclaw.mjs`, `node --test test/*.test.mjs` and `node scripts/check-public.mjs`. Run `npm pack` inside `packages/routerclaw`; the prepack check refuses an incomplete or changed adapter. Source and test fixtures are maintained separately from the generated release adapter.
 
-The previous prototype has 47 isolated cases and four recent real Telegram turns, plus eight earlier turns under a prior policy. Installer fixtures and install-smoke evidence are recorded separately; synthetic lifecycle tests are not production or real-message proof. Registry distribution is pending security checks. The source repository is public.
+The previous prototype has 47 isolated cases and four recent real Telegram turns, plus eight earlier turns under a prior policy. Installer fixtures and install-smoke evidence are recorded separately; synthetic lifecycle tests are not production or real-message proof. The source repository is public. This source version has no published ClawHub release. The earlier staged artifact was withdrawn for attribution privacy.
 
 MIT for original contributions; OpenClaw portions retain their own MIT notice in `adapter/OPENCLAW-LICENSE`. This project is independent of, and not endorsed by, the OpenClaw Foundation. The installation does not grant permissions beyond the operator's existing account; explicit activation grants conversation and prompt hooks only to this plugin.
 
