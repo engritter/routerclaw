@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-16",
+  "package": "@engritter/routerclaw",
+  "version": "0.1.0-alpha.1",
+  "stage": "private-alpha-ready-for-publisher-review",
+  "isolatedSuite": {
+    "total": 70,
+    "originalReferenceCases": 47,
+    "additionalInstallerCases": 23,
+    "windows": {
+      "node": "26.13.0",
+      "passed": 70,
+      "failed": 0
+    },
+    "linux": {
+      "node": "24.22.2",
+      "passed": 70,
+      "failed": 0
+    },
+    "counting": "The same 70 cases ran on two platforms; the adapter also repeats the original 47 fixtures inside one installer integration case. Do not add these reruns into a larger unique count."
+  },
+  "nativeInstallationSmoke": {
+    "schema": 1,
+    "isolated": true,
+    "realTelegramValidation": false,
+    "modelCallsRequested": 0,
+    "realBotAccountsConfigured": 0,
+    "packageInstalled": true,
+    "baselineVerified": true,
+    "softwarePreparation": true,
+    "baselineGatewayHealthy": true,
+    "activation": {
+      "status": "active-awaiting-real-message",
+      "health": true,
+      "historyReset": false,
+      "realMessageValidated": false
+    },
+    "codexInFreshFixture": false,
+    "codexAuthenticationTested": false,
+    "classifierServiceRegistered": true,
+    "rollback": {
+      "status": "rolled-back",
+      "historyReset": false
+    },
+    "originalConfigurationRestored": true,
+    "productionConfigUnchanged": true,
+    "productionGatewayPidUnchanged": true,
+    "status": "passed",
+    "temporaryAccountRemoved": true
+  },
+  "clawhubStaticInspection": {
+    "status": "pass",
+    "breakageCount": 0,
+    "warningCount": 0,
+    "deprecationWarningCount": 0,
+    "issueCount": 0,
+    "runtimeCaptured": false
+  },
+  "artifact": {
+    "file": "engritter-routerclaw-0.1.0-alpha.1.tgz",
+    "bytes": 258878,
+    "sha256": "88a6ce0671f8ca137c10afaa4c866486b222691ffeeaeca8b696c79000e3de39",
+    "sameExactthe architecture-review agentsAsNativeSmoke": true
+  },
+  "defectsFoundAndAddressed": [
+    "Refuse legacy agent lists; preserve current keyed agent entries",
+    "Preserve native canonical-state management guards",
+    "Start the inspected operator-owned unit through systemd rather than requesting native service repair",
+    "Require matching process and classifier readiness before recording activation",
+    "Preserve later configuration edits and private recovery evidence"
+  ],
+  "limits": [
+    "Only OpenClaw 2026.11.1 with nine exact source hashes",
+    "Default canonical state/config and Linux Node user-systemd service only",
+    "The fresh fixture has no Codex runtime/account or real Telegram bot; it proves installation, Gateway boot, classifier registration and rollback, not native OAuth inference or actual routed delivery",
+    "Historical prototype Telegram evidence is preserved separately; this package has not been applied to the coordinating agent",
+    "No public registry release yet; authenticated publisher review is pending"
+  ],
+  "publicSecretsIncluded": false
+}

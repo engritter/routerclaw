@@ -1,0 +1,21 @@
+{
+  "name": "routerclaw",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Per-message model and reasoning routing for OpenClaw: experimental reference and reproducible tests.",
+  "author": "Álvaro Ritter — Safety Engenharia",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^24.22.1 || >=26.12.1 <27"
+  },
+  "scripts": {
+    "build:reference": "python3 scripts/build_reference.py",
+    "test": "node --test test/*.test.mjs",
+    "check:privacy": "node scripts/check-public.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engritter/routerclaw.git"
+  }
+}

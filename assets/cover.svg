@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-label="RouterClaw by Álvaro Ritter, Safety Engenharia">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071421"/><stop offset="1" stop-color="#112a3f"/></linearGradient><linearGradient id="line"><stop stop-color="#4ef1c4"/><stop offset="1" stop-color="#75a7ff"/></linearGradient><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#89b7dc" stroke-opacity=".055"/></pattern></defs>
+<rect width="1440" height="720" rx="26" fill="url(#bg)"/><rect width="1440" height="720" fill="url(#grid)"/>
+<circle cx="1250" cy="130" r="210" fill="#347bba" opacity=".09"/>
+<text x="68" y="68" fill="#83a7bf" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">SAFETY ENGENHARIA / EXPERIMENTAL OPENCLAW REFERENCE</text>
+<g fill="none" stroke="url(#line)" stroke-width="7" stroke-linecap="round"><path d="M76 156h52v92H76zM128 156l42 46-42 46M76 202h52"/></g>
+<text x="210" y="231" fill="#f0f6ff" font-family="Arial,sans-serif" font-weight="700" font-size="76" letter-spacing="-4">ROUTERCLAW</text>
+<text x="72" y="308" fill="#dcebf9" font-family="Arial,sans-serif" font-size="32">One conversation. A deliberate route for every message.</text>
+<text x="72" y="350" fill="#89a9c0" font-family="Arial,sans-serif" font-size="22">Model + reasoning effort · Native admission · Evidence before claims</text>
+<g font-family="Arial,sans-serif"><rect x="72" y="402" width="380" height="96" rx="16" fill="#102d3b" stroke="#28505c"/><text x="94" y="444" fill="#64ecc8" font-size="34" font-weight="700">70</text><text x="154" y="443" fill="#dcebf9" font-size="20">isolated tests passed</text><text x="94" y="475" fill="#86a8bb" font-size="16">47 routing + 23 installer cases</text>
+<rect x="472" y="402" width="380" height="96" rx="16" fill="#112a42" stroke="#2c4765"/><text x="494" y="444" fill="#8db5ff" font-size="34" font-weight="700">8 + 4</text><text x="600" y="443" fill="#dcebf9" font-size="19">Telegram inputs</text><text x="494" y="475" fill="#86a8bb" font-size="16">Earlier mapping + new Sol-default policy</text>
+<rect x="872" y="402" width="496" height="96" rx="16" fill="#152b3c" stroke="#40505e"/><text x="895" y="443" fill="#f0c678" font-size="22" font-weight="700">LUNA → SOL → ASTRA</text><text x="895" y="475" fill="#86a8bb" font-size="16">Per-turn selection · No measured savings claim</text></g>
+<path d="M72 545h1296" stroke="#325166"/>
+<text x="72" y="590" fill="#829fb2" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">CREATED AND DIRECTED BY</text>
+<text x="72" y="632" fill="#f3f7fb" font-family="Arial,sans-serif" font-size="31" font-weight="700">ÁLVARO RITTER</text>
+<text x="72" y="670" fill="#80a2bb" font-family="Arial,sans-serif" font-size="18">Safety Engenharia · engenharia.seg.br · @seg.safety</text>
+<text x="1365" y="632" text-anchor="end" fill="#8ab5ca" font-family="Arial,sans-serif" font-size="19">@engritter</text>
+<text x="1160" y="370" transform="rotate(-22 1160 370)" text-anchor="middle" fill="#d7f8ef" opacity=".055" font-family="Arial,sans-serif" font-weight="700" font-size="62">ÁLVARO RITTER</text>
+</svg>

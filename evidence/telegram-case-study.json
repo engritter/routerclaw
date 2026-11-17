@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-16",
+  "evidenceType": "Author-observed deployment case study; not an independently replayable live benchmark",
+  "baseline": "OpenClaw 2026.11.1 / 4ffdd20",
+  "localQualification": {
+    "testsPassed": 41,
+    "testsFailed": 0,
+    "syntaxCheckedModules": 12
+  },
+  "liveConversationInputs": 8,
+  "cases": [
+    {
+      "case": "T01",
+      "scenario": "TG04-simple",
+      "classification": "LEVE",
+      "attachments": false,
+      "model": "openai/gpt-6-luna",
+      "reasoningEffort": "low",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T02",
+      "scenario": "original-question",
+      "classification": "LEVE",
+      "attachments": false,
+      "model": "openai/gpt-6-luna",
+      "reasoningEffort": "low",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T03",
+      "scenario": "TG05-review-admin",
+      "classification": "REVISAO",
+      "attachments": false,
+      "model": "openai/gpt-6-astra",
+      "reasoningEffort": "high",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        },
+        {
+          "name": "openclaw",
+          "success": true
+        },
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T04",
+      "scenario": "original-after-admin",
+      "classification": "LEVE",
+      "attachments": false,
+      "model": "openai/gpt-6-luna",
+      "reasoningEffort": "low",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T05",
+      "scenario": "TG06-complex",
+      "classification": "COMPLEXO",
+      "attachments": false,
+      "model": "openai/gpt-6-sol",
+      "reasoningEffort": "high",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T06",
+      "scenario": "TG07-queued-followup",
+      "classification": "NORMAL",
+      "attachments": false,
+      "model": "openai/gpt-6-astra",
+      "reasoningEffort": "medium",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T07",
+      "scenario": "TG08-attachment",
+      "classification": "NORMAL",
+      "attachments": true,
+      "model": "openai/gpt-6-sol",
+      "reasoningEffort": "high",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "exec",
+          "success": true
+        },
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    },
+    {
+      "case": "T08",
+      "scenario": "TG09-after-status",
+      "classification": "LEVE",
+      "attachments": false,
+      "model": "openai/gpt-6-luna",
+      "reasoningEffort": "low",
+      "outcome": "success",
+      "classifications": 1,
+      "classifierAndExecutorOAuthObserved": true,
+      "deliveryObservedInTelegramDesktop": true,
+      "tools": [
+        {
+          "name": "message",
+          "success": true
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "sessionPreserved": true,
+    "historyReset": false,
+    "configAndUnitUnchangedByFinalRecoveryRevision": true
+  },
+  "sourceLedgerSha256": "33ec4ee16c35cb75302c6ec1f1c67b593e6680224e8aab16e6bfe3dac35dbaec",
+  "redaction": "No original messages, Telegram identifiers, native run/session IDs, account emails, hostnames, IP addresses, credentials or private deployment paths are included.",
+  "limits": [
+    "Exact original native preparation race root cause remains unproven. Controlled pre-prompt recovery qualified locally; it did not need to trigger in these eight real cases.",
+    "The new deadline was not stress-induced in production; no fake timeout was injected.",
+    "Native /status answered outside per-message routing and shows configured defaults, not last-response model. Earlier all-native-command refusal claim was not reproduced; this is recorded as an unresolved scope gap. No command policy or native security gate was weakened.",
+    "No new individual conversational tests were sent to the other three configured bots; their connection and credential probes passed individually.",
+    "One synthetic text attachment was tested, not live microphone audio, video or every image format.",
+    "Native post-terminal context snapshot warnings invalid_content remain; eight execution outcomes and Telegram deliveries succeeded. No transcripts were removed."
+  ]
+}

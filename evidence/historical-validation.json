@@ -1,0 +1,17 @@
+{
+  "reviewDate": "2026-11-16",
+  "review": "Documentary review with the coordinating agent, plus report, TAP summary and dataset-metadata inspection; not independent reproduction",
+  "hostComposition": {"nodePassed":179,"pythonPassed":12,"liveInference":false,"earlierSuitesOverlap":true},
+  "isolatedVps": {"completedRoutedTurns":4,"plannedSelectedReceipts":8,"officialCodexUnmodified":true,"codexTrust":"trusted-official","oauthPreparedRouteObserved":true,"quotaOrCostMeasured":false,"rollbackFullyExercised":false,"filesystemIsolationProved":false},
+  "isolatedSubsetRerun": {"nodePassed":17,"pythonPassed":12,"subsetNotAdditionalUniqueSuite":true},
+  "bridgeRegressions": {"passed":46,"prior45CaseSuitesOverlap":true},
+  "preparedIdentityFixtures": {"passed":4,"livePaidReserveTest":false},
+  "explicitModelComparisons": {"initialRuns":16,"initialToolTaskPasses":14,"initialToolTaskFailures":2,"semanticRuns":24,"semanticPasses":24,"typedContractRuns":8,"typedContractPasses":8,"distinctRunIds":48,"overlap":0,"automaticRouterProof":false,"originalOracleIssueDocumented":true},
+  "observer": {"passedFixtures":9,"hypotheticalBatchDecisions":9,"actualModelSwitchesProvedByBatch":false},
+  "earlierTelegram": {"isolatedTests":41,"liveInputs":8,"connectionProbes":4},
+  "solDefaultRevision": {"isolatedTests":47,"previous41Included":true,"newPolicyTests":6,"liveInputs":4},
+  "sourceCategories": ["Host-composition result and final Node/Python summaries","Isolated-VPS real result, final verification and auth summary","Bridge and identity TAP summaries","Explicit-model technical report, final review and three evaluation datasets","Metadata observer result","Earlier Telegram ledger","Sol-default real-policy ledger"],
+  "counting": "Do not sum overlapping suites, reruns, receipts, hypothetical decisions and live executions into one test count.",
+  "rawChatsOrCredentialsIncluded":false,
+  "publicReleaseAuthorized":false
+}

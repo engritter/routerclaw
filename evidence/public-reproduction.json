@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "artifact": "Sanitized offline reference published in this repository",
+  "results": [
+    {
+      "os": "Linux",
+      "node": "24.22.2",
+      "tests": 47,
+      "passed": 47,
+      "failed": 0,
+      "skipped": 0,
+      "builder": "Python 3, nine upstream source hashes verified"
+    },
+    {
+      "os": "Windows",
+      "node": "26.13.0",
+      "tests": 47,
+      "passed": 47,
+      "failed": 0,
+      "skipped": 0,
+      "builder": "Generated fixture outputs transferred from the verified Linux build"
+    }
+  ],
+  "counting": "The same 47 cases were run on two environments; this is not 94 distinct tests. The previous 41 cases are included.",
+  "liveInference": false,
+  "gatewayStarted": false,
+  "credentialsUsed": false,
+  "sourceDifferences": "Current author-approved Sol-default revision; sanitized helpers match that tested revision except attribution and fictitious owner/profile. Native fixtures remain hash-identical.",
+  "privacyCheck": "Limited credential/infrastructure pattern scan plus private-source literal comparison. Neither constitutes an independent security audit."
+}

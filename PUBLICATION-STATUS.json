@@ -1,0 +1,12 @@
+{
+  "brand": "RouterClaw",
+  "author": "Álvaro Ritter",
+  "repository": "https://github.com/engritter/routerclaw",
+  "githubPublicationAuthorized": true,
+  "stage": "public-release-preparation",
+  "clawhubPackage": "@engritter/routerclaw",
+  "clawhubStatus": "security checks pending; not confirmed publicly installable",
+  "upstreamSubmission": "No issue, PR or comment submitted",
+  "productionChanged": false,
+  "privacy": "Clean publication history; no personal email, raw conversations, credentials or private bot names"
+}

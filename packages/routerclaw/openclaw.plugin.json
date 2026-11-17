@@ -1,0 +1,11 @@
+{
+  "id": "routerclaw",
+  "name": "RouterClaw — Álvaro Ritter",
+  "description": "Experimental Telegram model/effort routing with an explicitly prepared, version-pinned host adapter. Installing the plugin alone does not activate routing.",
+  "categories": ["agent-runtimes"],
+  "configSchema": {
+    "type":"object","additionalProperties":false,
+    "properties":{"installation":{"type":"string","minLength":1,"description":"Private installation directory produced by routerclaw prepare."}}
+  },
+  "activation": {"onCapabilities":["hook"]}
+}

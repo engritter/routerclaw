@@ -1,0 +1,15 @@
+{
+  "id": "lab-router-6778",
+  "name": "Lab Router 6778",
+  "description": "Explicit development-host routing only",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "activation": {
+    "onCapabilities": [
+      "hook"
+    ]
+  }
+}

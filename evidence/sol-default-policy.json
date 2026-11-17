@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-16",
+  "policy": {
+    "simple": "Luna/low",
+    "normal": "Sol/low",
+    "reviewMedia": "Sol/high",
+    "exceptional": "Astra/high",
+    "automaticMedium": false
+  },
+  "isolatedTests": 47,
+  "previousTestsIncluded": 41,
+  "newPolicyTests": 6,
+  "liveCases": [
+    {
+      "case": "SD01",
+      "classification": {
+        "kind": "LEVE",
+        "risk": "low",
+        "confidence": 0.99,
+        "attachments": false
+      },
+      "model": "openai/gpt-6-luna",
+      "effort": "low",
+      "runtimeModelMatched": true,
+      "outcome": "success",
+      "oneClassification": true,
+      "replyObservedInTelegramDesktop": true,
+      "messageDeliveryToolSuccess": true,
+      "readOnlyAdministrationToolSuccess": false
+    },
+    {
+      "case": "SD02",
+      "classification": {
+        "kind": "REVISAO",
+        "risk": "high",
+        "confidence": 0.99,
+        "attachments": false
+      },
+      "model": "openai/gpt-6-astra",
+      "effort": "high",
+      "runtimeModelMatched": true,
+      "outcome": "success",
+      "oneClassification": true,
+      "replyObservedInTelegramDesktop": true,
+      "messageDeliveryToolSuccess": true,
+      "readOnlyAdministrationToolSuccess": false
+    },
+    {
+      "case": "SD03",
+      "classification": {
+        "kind": "NORMAL",
+        "risk": "low",
+        "confidence": 0.99,
+        "attachments": false
+      },
+      "model": "openai/gpt-6-sol",
+      "effort": "low",
+      "runtimeModelMatched": true,
+      "outcome": "success",
+      "oneClassification": true,
+      "replyObservedInTelegramDesktop": true,
+      "messageDeliveryToolSuccess": true,
+      "readOnlyAdministrationToolSuccess": false
+    },
+    {
+      "case": "SD04",
+      "classification": {
+        "kind": "REVISAO",
+        "risk": "low",
+        "confidence": 0.99,
+        "attachments": false
+      },
+      "model": "openai/gpt-6-sol",
+      "effort": "high",
+      "runtimeModelMatched": true,
+      "outcome": "success",
+      "oneClassification": true,
+      "replyObservedInTelegramDesktop": true,
+      "messageDeliveryToolSuccess": true,
+      "readOnlyAdministrationToolSuccess": true
+    }
+  ],
+  "sameConversationPreserved": true,
+  "configUnchanged": true,
+  "unitUnchanged": true,
+  "nativeCodexTrust": "trusted-official",
+  "newLiveAttachmentTest": false,
+  "sourceLedgerSHA256": "800f08ccb72191c29a5c0399e5af7ba1d8d333a7eef1457aad7b1ab3602ffa45",
+  "costOrQuotaSavingsMeasured": false,
+  "publicReleaseAuthorized": false
+}

@@ -1,0 +1,15 @@
+{
+  "version": "2026.11.1",
+  "revision": "4ffdd20",
+  "sources": {
+    "setup-A6bM8Yvp.mjs": "6096cee3d7a65df60c7afbf0528cfea735d4761c7ea0cb9dc3aedfc8baec6c38",
+    "run-entry-D6w0ZxSt.mjs": "38afed8e00c82324b6931fb5132daedd6e70685ea3daa112ec3220de1d706acd",
+    "agent-runner-run-BjYtW0ag.mjs": "b8486e585d5e1966f8fdba66a3f09879e1460f91ae27a0fa63864b6a1ffc1d0c",
+    "get-reply-BnwmFitU.mjs": "519ad0ee316e8dc2970a842cd28e0992ce24ca53119921c8048e8c47a0fc4eb9",
+    "bot-native-command-dispatch-B32RuGgZ.mjs": "e7546da1a2c2d894a0163660128e37f52c953edf4cbc98e388e4a0415fc37e07",
+    "prepare-auth-CZ3ZGxd8.mjs": "d0485cc9bb7356eee0e64ef1b5d7a97ff8bcb2d9de67a89c647f32921359c453",
+    "isolated-completion-DG-kjkqs.mjs": "207b3ef8c4a30aa0ba593f6af42f5d26e7e4754b6ecf1346e330837aed748c12",
+    "system-agent-Cl6ELMrR.mjs": "53afa4781ae9ad6df5a0a6d2a11336e559db065d703e5d1d3b025a2030c799b7",
+    "selection-CecZuDT-.mjs": "15cf3b333779c77c2674a6e8e790e4b91f5f0aceffaef9dd3b6b498f66520a18"
+  }
+}
