@@ -79,7 +79,7 @@ jobs:
         run: |
           git config user.name 'Álvaro Ritter'
           git config user.email '325858541+engritter@users.noreply.github.com'
-          git add -- . ':!.github/workflows/initialize-reviewed-source.yml'
+          git add -- . ':(exclude).github/workflows/**'
           git commit -m 'Publish reviewed RouterClaw source, installer and 70 isolated tests'
           git push origin HEAD:main
       - name: Build alpha installer artifact
