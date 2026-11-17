@@ -4,7 +4,7 @@
 
 > **Experimental alpha — OpenClaw 2026.11.1 only. Read the installation requirements before using it.**
 
-The new **RouterClaw experimental plugin and installer** is available as source in [packages/routerclaw](packages/routerclaw/README.md). It ships the required, exact-version host adapter, with separate preparation, explicit activation and rollback commands. It is not a universal SDK-only plugin. See the [installer scope and evidence](docs/PLUGIN-INSTALLER.md). This repository contains the source and installer. ClawHub distribution remains pending its security checks.
+The new **RouterClaw experimental plugin and installer** is available as source in [packages/routerclaw](packages/routerclaw/README.md). It ships the required, exact-version host adapter, with separate preparation, explicit activation and rollback commands. It is not a universal SDK-only plugin. See the [installer scope and evidence](docs/PLUGIN-INSTALLER.md). This repository contains the source and installer. The reviewed public source is available here. The earlier staged ClawHub artifact was withdrawn for attribution privacy; this source version has no published ClawHub release.
 
 **Choose the model and reasoning effort for each message. Keep the conversation.**
 
