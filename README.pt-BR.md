@@ -4,7 +4,7 @@
 
 > **Versão alfa experimental — somente OpenClaw 2026.11.1. Confira os requisitos antes de instalar.**
 
-O novo **plugin e instalador experimental RouterClaw** está disponível como código em [packages/routerclaw](packages/routerclaw/README.md), com verificação da versão, preparação separada, ativação explícita e retorno. Ele inclui a adaptação de host necessária e ainda não é um plugin universal. Veja o [escopo e as evidências do instalador](docs/PLUGIN-INSTALLER.md). Este repositório contém o código e o instalador. A distribuição no ClawHub ainda aguarda a análise de segurança.
+O novo **plugin e instalador experimental RouterClaw** está disponível como código em [packages/routerclaw](packages/routerclaw/README.md), com verificação da versão, preparação separada, ativação explícita e retorno. Ele inclui a adaptação de host necessária e ainda não é um plugin universal. Veja o [escopo e as evidências do instalador](docs/PLUGIN-INSTALLER.md). Este repositório contém o código e o instalador. A versão anterior enviada ao ClawHub foi retirada para adequar a privacidade da atribuição; esta versão do código ainda não foi publicada naquele catálogo.
 
 **Um modelo e um esforço para cada mensagem, mantendo a mesma conversa.**
 
@@ -35,7 +35,7 @@ Os quatro bots também passaram em sondagens individuais de conexão e credencia
 
 Código de referência, nove módulos originais do OpenClaw com licença preservada para reproduzir os testes, construtor offline com conferência de hashes, matriz de validação, metadados públicos sem dados da VPS e proposta técnica para avaliação pelo OpenClaw. A identidade visual e os créditos aparecem na capa, nos arquivos de autoria e nos cabeçalhos das contribuições originais.
 
-Este é um **protótipo experimental baseado no OpenClaw 2026.11.1**, não um instalador pronto. Não substitua seu Gateway por estes arquivos.
+Este é um **plugin experimental baseado no OpenClaw 2026.11.1**, com instalador para serviços Linux compatíveis. Confira os requisitos e use a preparação e a ativação explícitas do [manual](packages/routerclaw/README.md). Não substitua seu Gateway manualmente pelos arquivos de referência.
 
 ## Executar os testes sem tocar no servidor
 
